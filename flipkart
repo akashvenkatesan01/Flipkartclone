@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  
+  ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:white;
+}
+
+li{
+  float:left;
+  width: 16.66%;
+}
+
+li a, .dropbtn {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color:dodgerblue;
+  background-color:white;
+}
+
+li.dropdown {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.one
+{
+    background-color: dodgerblue;
+    height:50px;
+}
+.two
+{
+  float:right;
+  height: 20px;
+  width: 100px;
+  margin-top: 15px;
+  margin-right: 150px;
+  color:dodgerblue;
+  background-color: white;
+  text-decoration: none;
+  text-align: center;
+  border:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.four
+{
+  height:18px;
+  width:250px;
+  margin-left: 100px;
+  margin-top:15px;
+  position: relative;
+  color:dodgerblue;
+  background-color: white;
+}
+</style>
+</head>
+<body style="background-color: lightgray;">
+
+  <div class="one">
+    <p style="color:white;display:block;float: left;font-family: Arial, Helvetica, sans-serif;margin-left: 70px;">Flipkart<i class="fa fa-shopping-cart" style="font-size:24px"></i></p>
+    <form>
+      <input type="text" placeholder="Search for products,brands and more" class="four"><button  value="submit" class:"three" style="height:25px;margin-top: 10px;text-align: centers;cursor:pointer;"><i class="fa fa-search" style="cursor:pointer;"></i>
+ </button><a href="#" class="two">Login</a></form>
+  </div>
+  <ul >
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Electronics ></a>
+      <div class="dropdown-content">
+        <a href="#">Mobiles</a>
+        <a href="#">Headsets</a>
+        <a href="#">Other Mobile Accessories</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Men ></a>
+      <div class="dropdown-content">
+        <a href="#">Dresses</a>
+        <a href="#">Accessories</a>
+        <a href="#">Footwears</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Women ></a>
+      <div class="dropdown-content">
+        <a href="#">Dresses</a>
+        <a href="#">Accessories</a>
+        <a href="#">Footwears</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Kids ></a>
+      <div class="dropdown-content">
+        <a href="#">Dresses</a>
+        <a href="#">Accessories</a>
+        <a href="#">Footwears</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">TVs ></a>
+      <div class="dropdown-content">
+        <a href="#">Samsung</a>
+        <a href="#">MI</a>
+        <a href="#">Other brands</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Furnitures and Groceries ></a>
+      <div class="dropdown-content">
+        <a href="#">Furniture</a>
+        <a href="#">Groceries</a>
+        <a href="#">Other home appliances</a>
+      </div>
+    </li>
+  </ul>
+<img src="C:\Users\ELCOT\Documents\flipkart\image\1.png" style="height: 200px;width: 100%;cursor: pointer;"></img>
+<img src="C:\Users\ELCOT\Documents\flipkart\image\2.png" style="height: 200px;width: 100%;cursor: pointer;"></img>
+<div style="background-color:lightblue ;">
+<pre><h3 style="font-family: sans-serif;margin-left: 25px;padding:20px 20px;">Food,Beverages & Supplements                                                                                                                                                                                                                 <span style="color:blue;cursor: pointer;"> More ></span></h3></pre>
+<h4 style="color: grey;font-family: sans-serif;margin-left: 25px;">For your health</h4>
+
+  <img src="C:\Users\ELCOT\Documents\flipkart\image\3.png" style="height: 200px;width: 23%;cursor: pointer;"></img>
+  <img src="C:\Users\ELCOT\Documents\flipkart\image\4.png" style="height: 200px;width: 23%;cursor: pointer; "></img>
+  <img src="C:\Users\ELCOT\Documents\flipkart\image\5.png" style="height: 200px;width: 23%;cursor: pointer; "></img>
+  <img src="C:\Users\ELCOT\Documents\flipkart\image\6.png" style="height: 200px;width: 23%;cursor: pointer; "></img>
+</div>
+<pre>
+  Top Stories:Brand Directory
+
+MOST SEARCHED FOR ON FLIPKART:5G MobilesFlipkart VideosFlipkart Pay LaterFlight BookingMi Air Purifier 2CiQOOO 3Studio FurnitureAir PurifiersVaporizerNebulizersHand SanitizerHand WashPollution MasksA.P.J Abdul Kalam BooksRakesh Yadav BooksChetan Bhagat BooksAmrita Pritam BooksHuawei Band 4Realme 5iRealme Buds AirNokia 55 Inch TVRealme X2 PRONoise Colorfit Pro 2 SmartwatchUnicorn ToysRedmi 8Honor 20iOPPO K1Realme 5Realme 5 ProFlipkart Axis Bank Credit CardRedmi K20Redmi K20 ProRealme 3iRealme XPhantom 9Redmi 7ARedmi Note 7SEarringsMens Watches3m MasksPollution MasksJewelleryWatchesMangalsutran95 masksSunglassesMi SunglassesAkshaya Tritiya
+MOBILES:Realme X2Realme 5Infinix Hot 8iPhone 11iPhone 11 ProiPhone 11 Pro MaxMobile Offersiphone xiphone 8iphone 7iphone 6Redmi 5A4G MobileNokia MobileSamsung MobileiphoneOppo MobileVivo Mobile
+CAMERA:GoPro Action CameraNikon CameraCanon CameraSony CameraCanon DSLRNikon DSLR
+LAPTOPS:Microsoft Surface Go Pentium Gold 64GBMicrosoft Surface Go Pentium 128GBBranded LaptopsApple LaptopsAcer LaptopsLenovo LaptopsDell LaptopsAsus LaptopsHP LaptopsGaming Laptops2 in 1 LaptopsBusiness Laptops
+TVS:MI 43 Inch 4K TVMI 40 Inch TVMi 65 Inch TVSamsung 32 Smart TVLG TVTVSony TVSamsung TVMi 49 Inch Smart TVAndroid TelevisionIffalcon TvMi TV
+LARGE APPLIANCES:Voltas ACHitachi ACLloyd ACBlue Star ACDaikin ACLG ACSamsung RefrigeratorsHaier RefrigeratorWhirlpool Refrigerator
+CLOTHING:Men ShirtsMen T-ShirtsMen SuitsMen TrousersMens BlazersSareesDressesSkirtsDesigner Salwar SuitsBraEthnic WearDesigner KurtisParty DressesPalazzo SuitsNightgownsMaxi DressesAnarkaliIndo Western DressGownsCulottesSherwaniGirls ClothesSalwar SuitsTopsLehengaDress MaterialsKurtisDesigner SareesSummer DressesDesigner BlousesKids ClothingBlouse DesignsBanarasi SareesSilk SareesCotton SareesShortsBlouseLong SkirtsPalazzoMini DressesBanarsi SuitSportswearPaithani Sarees
+FOOTWEAR:ShoesAdidas ShoesReebok ShoesNike ShoesPuma ShoesBootsBata ShoesWoodland ShoesSkechers ShoesSneakersWomens BootsSports ShoesLoafersCasual ShoesWomens Skechers ShoesFormal ShoesSchool Shoes
+GROCERIES:PhonePe Grocery VoucherSugar Jaggery SaltsRiceMasala & SpicesDals PulsesAttaCookiesNoodlesGheeDry FruitsToor DalOlive OilSunflower OilJuicesGrocery StoreGrocery Essential StoreMuesliBreakfast CerealHand WashHand Sanitizer
+BEST SELLING ON FLIPKART:BooksToy StoreCandlesHelmetsWall ClocksBaby FoodChocolatesCyclesCalculatorsLipsticks
+FURNITURE:FurnitureSofasBedsDining setsWardrobesMattressesTV UnitsTablesChairsShelvesBean BagsRed SofaWhite SofaGreen SofaBlack SofaBrown Sofa
+</pre>
+<div style="background-color:black;color: white;">
+  <pre style="cursor: pointer;">
+ABOUT               POLICY               SOCIAL
+
+Contact Us          Return Policy        Facebook     
+About Us            Terms Of Use         Twitter  
+Careers             Privacy              Youtube       
+Flipkart Stories    Sitemap
+Press               EPR Compliance
+  </pre>
+</div>
+
+</body>
+</html>
